@@ -1,0 +1,37 @@
+/*div {
+    border: 2px dotted black;
+}*/
+
+body {
+    font-family: helvetica, sans-serif;
+}
+
+#container {
+    margin: auto;
+    width: 80%;
+}
+
+#leftside {
+    width: 45%;
+    padding-left: 100px;
+    display: inline-block;
+}
+
+#rightside {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+}
+
+.card {
+    height: 150px;
+    width: 275px;
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+    border: 1px dotted black;
+}

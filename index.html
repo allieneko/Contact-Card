@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>~contact card~</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script type="text/javascript" src="card.js">
+
+        $(document).ready(function(){
+            $('.card').on('submit', function(){
+                return false;
+
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <div id="container">
+        <div id="leftside">
+            <h1>contact card!</h1>
+            <form>
+                <label>First Name:
+                    <br><input type="text" id="first_name" value></label><br>
+                <label>Last Name:
+                    <br><input type="text" id="last_name" value></label><br>
+                <label>Description:
+                    <br><textarea id="description" rows="4" cols="50" value></textarea></label><br>
+                <button>Add User</button>
+            </form>
+        </div> <!--leftside-->
+        <div id="rightside">
+            <!-- <div class="card">
+                <h3>first_name last_name</h3>
+                <p>Click for Description!</p>
+            </div> -->
+        </div> <!--rightside-->
+    </div><!--container-->
+</body>
+</html>
